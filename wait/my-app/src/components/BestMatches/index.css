@@ -1,0 +1,28 @@
+.worker-home-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 1px;
+    margin-bottom: 1px;
+    min-height: 100vh;
+}
+.worker-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+    .worker-main-container{
+        flex-direction: row;
+        justify-content: start;
+        width: 100%;
+    }
+}
+.worker-home-rigth-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 70%;
+    padding: 25px;
+}

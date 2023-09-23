@@ -1,0 +1,121 @@
+.worker-home-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 1px;
+  margin-bottom: 1px;
+  min-height: 100vh;
+}
+.worker-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .worker-main-container {
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+  }
+}
+
+.worker-home-rigth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  padding: 25px;
+}
+@media screen and (min-width: 768px) {
+  .worker-home-rigth-container {
+    justify-content: start;
+  }
+}
+
+.worker-home-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solide #000;
+}
+@media screen and (min-width: 768px) {
+  .worker-home-inner-container {
+    flex-direction: row;
+  }
+}
+.worker-home-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(138deg, #504d4d 0%, #d9d9d9 100%);
+  border-radius: 30px;
+  margin: 30px;
+  width: 100% !important;
+  height: 270px;
+  box-shadow: 5px 1px 8px 10px #888888;
+}
+@media screen and (min-width: 768px) {
+  .worker-home-item {
+    width: 270px;
+  }
+}
+
+.worker-home-item {
+  color: #f8f8f8;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 80%;
+}
+
+.worker-home-discription {
+  color: #f8f8f8;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.worker-home-hr {
+    width: 70vw;
+    border-top: 2px solid black; 
+    margin-left: 50px;
+}
+
+.worker-home-inner-container-pie{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+.worker-home-subheading{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.pai-contaner{
+    display: flex;
+    box-shadow: 5px 1px 8px 10px #888888;
+    border-radius: 160px;
+}

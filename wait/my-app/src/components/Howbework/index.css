@@ -1,0 +1,250 @@
+.work-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 30px;
+}
+
+
+.work-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.work-background{
+    background-image: url('../../Assest/home11.png');
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-heading{
+    color: #fff;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.work-description{
+    color: #fff;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+.book-a-waiter{
+    border-radius: 12px;
+    background: #EC4137;
+    color: #fff;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.work-footer-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.work-container-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+@media screen and (min-width:768px){
+    .work-container-heading{
+        width: 80%;
+    }
+}
+
+.work-heding{
+    background-color: #000;
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.cercel-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    padding-top: 50px;
+}
+@media screen and (min-width: 768px){
+    .cercel-container{
+        align-items: center;
+    }
+}
+
+.left-rigth-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+    .left-rigth-conatiner{
+        flex-direction: row;
+        width: 70%;
+    }
+}
+
+.left-work-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    padding: 20px;
+    background-color: #eee;
+    border-top-left-radius: 70px;
+    height: 350px;
+    margin: 20px;
+}
+@media screen and (min-width:768px){
+    .left-work-container{
+        width: 45%;
+    }
+}
+
+.left-work-container-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    padding: 20px;
+    background-color: #eee;
+    border-bottom-left-radius: 70px;
+    height: 350px;
+    margin: 20px;
+}
+@media screen and (min-width:768px){
+    .left-work-container-bottom{
+        width: 45%;
+    }
+}
+
+.rigth-work-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    padding: 20px;
+    background-color: #eee;
+    border-top-right-radius: 70px;
+    height: 350px;
+    margin: 20px;
+}
+@media screen and (min-width:768px){
+    .rigth-work-container{
+        width: 45%;
+    }
+}
+
+.rigth-work-container-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    padding: 20px;
+    background-color: #eee;
+    border-bottom-right-radius: 70px;
+    height: 350px;
+    margin: 20px;
+}
+@media screen and (min-width:768px){
+    .rigth-work-container-bottom{
+        width: 45%;
+    }
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+}
+.cercel-heading{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+}
+.cercel-description{
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px;
+}
+
+.new-heading{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.image-container-or-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.container-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+@media screen and (min-width: 768px){
+    .container-home{
+        flex-direction: row;
+    }
+}
+.image-container{
+    width: 50%;
+}
+.work-image{
+    width: 300px;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}

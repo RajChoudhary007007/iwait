@@ -1,0 +1,143 @@
+.mission-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+.mission-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.miss-background{
+    background-image: url('../../Assest/ourmission.png');
+    background-size: cover;
+    background-position: 0%;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.mission-heading{
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.item-container{
+    background-image: url('../../Assest/Home12.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.item-iner-cont{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+.left-container{
+    display: flex;
+    justify-content: end;
+    border-top-style: none;
+    border-right-style: dashed;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-color: #000;
+    border-width: 5px;
+    width: 49%;
+}
+
+.horizotali-align{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.desc-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.desc-width-contain{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.description-width{
+    width: 50%;
+    width: 280px;
+    height: 170px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hr-mission-line{
+    width: 250px;
+    border-top: 5px dashed #000;
+}
+
+.doted-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: first baseline;
+}
+
+.red-border{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #EC4137;
+    background-color: #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.count-heading{
+    color: #fff;
+    font-size: 30px;
+}
+
+/*//////////////////////////////////////*/
+.right-container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 51%;
+    min-height: 100vh;
+    margin-top: 200px;
+}
+
+.horizotali-align-rigth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

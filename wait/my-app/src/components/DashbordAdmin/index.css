@@ -1,0 +1,119 @@
+.worker-home-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 1px;
+  margin-bottom: 1px;
+  min-height: 100vh;
+}
+.worker-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .worker-main-container { 
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+  }
+}
+.worker-home-rigth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 70%;
+  padding: 25px;
+}
+
+.admin-sub-header {
+  color: #000;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 15px;
+}
+
+.admin-dashnbord-main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.admin-dashbord-home-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 280px !important;
+  height: 240px !important;
+  background-image: url("../../Assest/admin.jpeg");
+  background-size: cover;
+  padding: 20px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.admin-heading{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: roboto;
+  color: #000;
+}
+
+.div-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  border: 3px, solid #000;
+  background-color: #000;
+}
+
+.card-container1{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+  width: 280px !important;
+  height: 240px !important;
+  background-image: url("../../Assest/admin.jpeg");
+  background-size: cover;
+  padding: 20px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.profile{
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+
+.admin-lower{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.back-color-div{
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+}

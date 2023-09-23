@@ -1,0 +1,160 @@
+
+.resgister-main-container{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    min-height: 100vh;
+    padding:40px;
+}
+
+.resgister-home{
+    background-image: url("../../Assest/backgroundImage.png");
+    background-size: cover;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:95%;
+    padding: 10px;
+}
+@media screen and (min-width:768px){
+    .resgister-home{
+        width:50%;
+        padding:50px;
+    }
+}
+
+.logo{
+    width:210px;
+    flex-shrink: 0;
+    padding-bottom: 2px;
+}
+@media screen and (min-width:768px){
+    .logo{
+        width:350px;
+        flex-shrink: 0;
+        padding-bottom: 2px;
+    }
+}
+
+.join-team{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.join-heading{
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+@media screen and (min-width:768px){
+    .join-heading{
+        font-size: 40px;
+    }
+}
+
+.hr-line{
+    width: 115px;
+    border-top: 3px solid #000;
+    height: 10px;
+    margin-top: 0;
+    padding-top: 0;
+}
+@media screen and (min-width:768px){
+    .hr-line{
+        border-top: 5px solid #000;
+        width: 175px;
+    }
+}
+
+.form-item{
+    width:100%;
+}
+
+.input-lable{
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 16x;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.input-lable-radio{
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+
+.user-input{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gender{
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+
+.sub-button{
+    border-radius: 100px;
+    background: #EC4137;
+    color: #fff;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.link{
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.link-new{
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.link-span{
+    color: #0351C5;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

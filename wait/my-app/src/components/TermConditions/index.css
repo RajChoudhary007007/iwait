@@ -1,0 +1,159 @@
+.condition-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+
+.condition-work-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.condition-work-background{
+    background-image: url('../../Assest/Condition11.png');
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.condition-work-heading{
+    color: #fff;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.condition-work-description{
+    color: #fff;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+.condition-waiter{
+    border-radius: 12px;
+    color: #fff;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.condition-container-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.condition-heding{
+    background-color: #000;
+    color: #fff;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.condition-footer-home{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+}
+.condi-main-desc{
+    color: #000;
+    font-family: Roboto Flex;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.condition-header-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    width: 80%;
+    min-height: 100vh;
+    padding-left: 30px;
+}
+
+.hedingunderLine{
+    color: #000;
+    font-family: Roboto Flex;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.condition-header-home-desc{
+    display: flex;
+    flex-direction: column;
+}
+.div-padding{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.div-row{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+@media screen and (min-width: 768px){
+    .div-row{
+        flex-direction: row;
+        width: 80%;
+    }
+}
+.condi-des-color{
+    color: #000;
+    font-family: Roboto Flex;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 73%;
+}
+.span-color{
+    color: #000;
+    font-family: Roboto Flex;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 25%;
+}
+
+.left-padding{
+    padding-left: 29%;
+    width: 100%;
+}
+
+.left-contain2{
+    padding-left: 36%;
+    width: 100%;
+}

@@ -1,0 +1,227 @@
+.new-home-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 30px;
+}
+
+
+.new-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.new-home-background{
+    background-image: url('../../Assest/home1.png');
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 10%;
+}
+
+.new-home-heading{
+    color: #fff;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.new-home-description{
+    color: #fff;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+.book-a-waiter{
+    border-radius: 12px;
+    background: #EC4137;
+    color: #fff;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+.lower-background{
+    background-image: url('../../Assest/Home2.png');
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.des-color{
+    color: #000;
+}
+.btn-color{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+.sec-lower-background{
+    background-image: url('../../Assest/Home12.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+.serch-container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: center;
+    padding: 30px;
+}
+.searching-main-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: rgba(0, 0, 0, 0.70);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+.second-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: rgba(0, 0, 0, 0.70);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+.search-input11{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 50%;
+    padding-left: 20px;
+    background-color: #000;
+    height: 45px;
+    border-radius: 10px;
+}
+.search-input12{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 40%;
+    padding-left: 20px;
+    background-color: #000;
+    height: 45px;
+    border-radius: 20px;
+}
+.search-input13{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 90%;
+    padding-left: 20px;
+    background-color: #000;
+    height: 45px;
+    border-radius: 20px;
+}
+
+.map-container{
+    width: 100%;
+    background: #464444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.work-with-us-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.work-with-us-heading{
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.width-set{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.font-sizeing{
+    font-size: 18px;
+}
+
+.work-with-us-mini{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-started{
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+
+.low-foo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #FFF;
+    padding-top: 40px;
+}
+.div-row-main-con{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+.div-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

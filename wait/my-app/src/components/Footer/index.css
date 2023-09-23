@@ -1,0 +1,101 @@
+.footer-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height:34vh; 
+    margin-top: 0;
+}
+@media screen and (min-width: 768px){
+    .footer-main-container{
+        justify-content: center;
+    }
+}
+
+.foo-background{
+    background-image: url('../../Assest/fooimage.png');
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin-top: 0;
+} 
+
+.foo-top-des{
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.foo-top-button{
+    border-radius: 15px;
+    background: #EC4137;
+    width: 142px;
+    height: 30px;
+    flex-shrink: 0;
+    padding-top: 8px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.footer-home{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 40px;
+}
+@media screen and (min-width: 768px){
+    .footer-home{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.footer-rap{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+@media screen and (min-width: 768px){
+    .footer-rap{
+        justify-content: space-around;
+    }
+}
+
+.logo-footer{
+    height: 80px;
+    width: 170px;
+}
+
+.footer-des{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 206px;
+}
+
+.item-foo{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 6px;
+}
+
+.foo-heding{
+    font-size: 28px;
+}

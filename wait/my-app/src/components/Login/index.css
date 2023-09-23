@@ -1,0 +1,135 @@
+.login-main-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.row-width{
+    border: 2px solid #000;
+    width:100% !important;
+    padding-bottom: 40px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width:768px){
+    .row-width{
+        border: 2px solid #000 !important;
+        width:800px !important;
+        height:600px !important;
+        flex-direction: row;
+    }
+}
+
+
+.backround-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../Assest/backgroundImage.png");
+    background-size: cover;
+    width: 95%;
+    height: 300px;
+    padding: 10px;
+}
+@media screen and (min-width:768px){
+    .backround-image{
+        width: 55%;
+        height: 600px;
+    }
+}
+
+.logo{
+    width: 150px !important;
+}
+@media screen and (min-width:768px){
+    .logo{
+        width: 200px;
+    }
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95% !important;
+    height: 400px;
+    padding: 40px !important;
+}
+@media screen and (min-width:768px){
+    .login-container{
+        width: 40%;
+        height: 600px;
+        padding: 50px !important;
+    }
+}
+
+.login-button{
+    border-radius: 100px;
+    background: #EC4137;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15x;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login-heading{
+    color: #000;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.login-line{
+    width: 80px;
+    border-top: 4px solid #000;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.chexck-box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.link-save{
+    color: #000;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fb-button{
+    border-radius: 20px;
+    background: #3D5A98;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.goog-button{
+    margin-top: 5px;
+    color: #000;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #FFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
